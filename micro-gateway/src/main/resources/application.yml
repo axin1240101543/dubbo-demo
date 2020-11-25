@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: micro-gateway #应用名称
+server:
+  port: 8080  #端口
+dubbo:
+  registry:
+    address: zookeeper://localhost:2181

@@ -1,0 +1,14 @@
+server:
+  port: 8881
+spring:
+  application:
+    name: micro-user
+dubbo:
+  protocol:
+    name: dubbo
+    port: 666
+    host: localhost
+  registry:
+    address: zookeeper://localhost:2181
+  scan:
+    base-packages: com.micro.darren.user.service
